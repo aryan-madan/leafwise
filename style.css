@@ -1,0 +1,114 @@
+body {
+    margin: 1em;
+    background: linear-gradient(to bottom, #111111, #000000, #053F33);
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    font-weight: normal;
+    color: #5a5a5a;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    height: 0em;
+}
+
+.cover-text {
+    color: #9ECC9E;
+    font-family: Roboto Mono, monospace;
+    font-weight: 400;
+    font-size: 4em;
+    height: 0.8em;
+}
+
+#cover {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nav {
+    display:flex;
+}
+
+.button-image {
+    width: 3em;
+    height: 3em;
+}
+
+.leaf-image {
+    width: 3em;
+    height: 3em;
+    margin-right: 1em;
+}
+
+.h-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    text-decoration: none;
+    border: none;
+    border-radius: 50em;
+    transition: 0.3s;
+    color: white;
+}
+
+.h-button:hover {
+    color: black;
+    box-shadow: 0 0 10px #9ECC9E;
+}
+
+.face-button {
+    margin-left: 50vw;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    text-decoration: none;
+    border: none;
+    border-radius: 50em;
+    transition: 0.3s;
+    color: white;
+    width: 4em;
+    height: 3em;
+}
+
+.face-button:hover {
+    color: black;
+    box-shadow: 0 0 10px #0866ff;
+}
+
+.insta-button {
+    margin-left: 2em;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    text-decoration: none;
+    border: none;
+    border-radius: 50em;
+    transition: 0.3s;
+    color: white;
+    width: 4em;
+    height: 3em;
+}
+
+.insta-button:hover {
+    color: black;
+    box-shadow: 0 0 10px #fe0965;
+}
+
+.b-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-text {
+    font-size: 1.5em;
+    color: white;
+    height: 0;
+    margin-top: -10px;
+}
